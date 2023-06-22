@@ -52,3 +52,4 @@ for i in range(1, 50):
 #and this evaluates it
 mean, std_dev = np.mean(mse_list), np.std(mse_list)
 print(mean, std_dev)
+#must complete printing the model graph or smth
