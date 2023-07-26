@@ -14,7 +14,7 @@ data_columns = data.columns
 predictors = data[data_columns[data_columns != 'Strength']] #here is the target
 target = data['Strength']
 
-#normalize predictors
+#normalize the predictors
 predictors_normalized = (predictors - predictors.mean())/ predictors.std()
 
 #this defines the predictors (X) and target (y) for training and testing
